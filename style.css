@@ -1,0 +1,120 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: #23232e;
+    text-align: center;
+    padding: 50px;
+}
+header img{
+    width: 7%;
+}
+h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+header p{
+    color: #66666b;
+}
+
+header i{
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 4px 6px;
+    border-radius: 50%;
+}
+
+/*this is what i do*/
+
+.whatido{
+    background-image: url(back.png);
+    text-align: center;
+    padding: 20px 25%;
+    height: 60vh;
+}
+.whatido h2{
+    font-size: 40px;
+     color: #23232e;
+}
+.row {
+    font-size: 10px;
+    text-align: left;
+}
+.row .col p{
+    font-size: 8px;
+}
+.whatido p{
+    font-size: 15px;
+    color: #464b4f;
+ 
+}
+.whatido .row .col{
+    text-align: left;
+    margin: 1px;
+    width: 31.33%;
+    float: left;
+}
+
+/* this is my work paty css */
+
+.my-work{
+    background-color: #23232e;
+    text-align: center;
+    padding: 20px 25%;
+    height: 100vh;
+    width: 50%;
+}
+.my-work h2{
+    text-align: center;
+}
+.menu-ber a{
+    color: white;
+    text-decoration: none;
+}
+.block {
+    display: block;
+   
+
+}
+.main-block1{
+    float: left;
+}
+.main-block2{
+  float: left;
+}
+
+.main-block3{
+    float: right;
+ 
+}
+    
+
+ .my-work img{
+    width: 100px;
+ }
+ button {
+    
+ }
+
+
+@media all and (max-width: 400px) {
+    header img{
+        width: 15%;
+    }
+    h2{
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+
+    /*what i do*/
+    .whatido .row .col{
+        text-align: left;
+        margin: 4px;
+        width: 25.33%;
+        float: left;
+    }
+
+}
